@@ -15,9 +15,9 @@ Second, you should have a txt file with each gene reference for a line.
 
 其次你应该有一个记录了基因索引的txt文件，其中每行一个基因序列索引。
 
-Then just run the script and follow the instructions.
+Then just run the script and follow the instruction, it will start from the second line of the ref txt.
 
-然后运行脚本即可。
+然后运行脚本即可。会从索引文件的第二行开始下载。
 
 Don't worry too much about the line break in the txt file, the script has good robustness.
 
