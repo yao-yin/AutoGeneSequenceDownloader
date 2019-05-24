@@ -6,7 +6,7 @@ from Bio import SeqIO
 f_in = open(str(input("""Please input your reference txt\nEg. D:\\test.txt""")),'r')
 ref_list = f_in.readlines()
 id_array = []
-for ref in ref_list[1:]:
+for ref in ref_list:
     Ref = ref.split(',')
     new = Ref[0].strip()
     id_array.append(new)
